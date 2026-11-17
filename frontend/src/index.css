@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-forest: #244c3b;
+  --color-sage: #a9bda9;
+  --color-ivory: #f7f6f0;
+  --color-charcoal: #252a27;
+  --color-terracotta: #c97857;
+  --color-muted-grey: #7e8982;
+}
+
+body {
+  background-color: #f7f6f0;
+  color: #252a27;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom scrollbars matching the Organic theme */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f7f6f0;
+}
+::-webkit-scrollbar-thumb {
+  background: #a9bda9;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7e8982;
+}
